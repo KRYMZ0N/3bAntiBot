@@ -15,7 +15,7 @@ public final class Main extends JavaPlugin implements Listener {
         pm.registerEvents(this, this);
         pm.registerEvents(new Join(this), this);
 
-        new AntiBot(this);
+        getCommand("antibot").setExecutor(new AntiBot(this));
 
     }
 

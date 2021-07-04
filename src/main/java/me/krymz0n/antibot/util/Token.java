@@ -1,10 +1,14 @@
 package me.krymz0n.antibot.util;
 
+import me.krymz0n.antibot.Main;
+import org.bukkit.event.Listener;
+
 import java.util.Random;
 
-public class Token {
+public class Token implements Listener {
 
-    private static Random random;
-    public static int token = random.nextInt(900) + 100;
-    public static String parseToken = String.valueOf(token);
+    public static Integer getRandomInt(Integer max) {
+        Random ran = new Random();
+        return ran.nextInt(max);
+    }
 }

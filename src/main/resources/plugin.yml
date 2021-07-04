@@ -5,6 +5,6 @@ authors: [ KRYMZ0N ]
 description: An antibot plugin designed for 3b3t, You may use this plugin, however support is limited
 website: www.3b3t.me
 
-Commands:
+commands:
   antibot:
     description: S
